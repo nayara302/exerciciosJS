@@ -4,5 +4,5 @@ window.onload = function() {
     var salario = parseFloat(prompt("Digite o valor do seu salário: "));
     soma += salario;
   }
-  alert("A soma dos salários dos trabalhadores é de: " + soma);
+  alert("A soma dos salários dos trabalhadores é de: R$ " + soma);
 }

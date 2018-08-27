@@ -5,5 +5,5 @@ window.onload = function() {
     soma += salario;
   }
   var media = soma / 5;
-  alert("A média dos salários dos trabalhadores é de: " + media);
+  alert("A média dos salários dos trabalhadores é de: R$ " + media);
 }
