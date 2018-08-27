@@ -1,7 +1,6 @@
 function verificaIguais(){
   var num1 = parseInt(document.getElementById("num1").value);
   var num2 = parseInt(document.getElementById("num2").value);
-  console.log(num1 + " - " + num2);
   var result = document.getElementById("resultado");
 
   if(num1 < 0 || num2 < 0){
